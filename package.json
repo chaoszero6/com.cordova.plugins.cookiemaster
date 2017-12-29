@@ -1,0 +1,37 @@
+{
+  "name": "com.cordova.plugins.cookiemaster",
+  "version": "3.2.1",
+  "description": "Cookie Master to get cookie values",
+  "cordova": {
+    "id": "com.cordova.plugins.cookiemaster",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaoszero6/com.cordova.plugins.cookiemaster.git"
+  },
+  "keywords": [
+    "Cookie",
+    "Cookies",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Vinoth Kannah MP",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/chaoszero6/com.cordova.plugins.cookiemaster/issues"
+  },
+  "homepage": "https://github.com/chaoszero6/com.cordova.plugins.cookiemaster#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
