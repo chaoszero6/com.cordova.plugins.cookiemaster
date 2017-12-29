@@ -13,13 +13,13 @@ As you may already know, WebViews on Android and iOS platforms do not support re
 
 Install with Cordova CLI
 
-    $ cordova plugin add https://github.com/kristianhristov/cordova-cookie-master.git
+    $ cordova plugin add https://github.com/chaoszero6/cordova-cookie-master.git
 
 ## Usage
 ### Get cookie value
 ```javascript
-cookieMaster.getCookieValue('http://<some host>:<some port>', '<cookie name>', function(data) {
-  console.log(data.cookieValue);
+cookieMaster.getCookieValue('http://<some host>:<some port>', function(data) {
+  console.log(data);
 }, function(error) {
   if (error) {
     console.log('error: ' + error);
